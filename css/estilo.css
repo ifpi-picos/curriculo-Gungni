@@ -1,12 +1,15 @@
 body {
-    width: 50%;
-    background-color: cyan;
+    width: 100%;
+    background-color: indigo;
     margin: 0 auto;
     border: 3px solid #fff;
     padding: 10px;
 }
 
-h3{
+h1{
+    text-align: center
+}
+h3 {
     border:2px solid black;
     border-radius: 10px;
 }
@@ -15,27 +18,8 @@ h1,h3,p,h3,ul,footer {
     color: black;
 }
 
-IMG.centraliza{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.redondo{
-    width: auto;
-    height: auto;
-    color: #FFF;
-    background-color: #000;
-    
-    border-radius: 10%;
-}
-.imagem{
-    display: inline-block;
-    vertical-align: top;
-    width: 5%;
-}
-.borda{
-    border-top: 2px solid #fff;
-    width: 100%;
-
+img {
+    border-radius: 100px 100px 100px 100px;
+    width:100px;
+    height:100px;
 }
